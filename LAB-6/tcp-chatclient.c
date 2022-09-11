@@ -28,7 +28,7 @@ void func(int sockfd){
 	}
 }
 int main(){
-	int sockfd, connfd;
+	int sockfd;
 	struct sockaddr_in servaddr, cli;
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	if (sockfd == -1) {
